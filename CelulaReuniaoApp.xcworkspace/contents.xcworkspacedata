@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CelulaReuniaoApp.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:CelulaReuniaoApp"
+      name = "CelulaReuniaoApp">
+      <Group
+         location = "group:CelulaReuniaoApp/Reuniao"
+         name = "Reuniao">
+         <Group
+            location = "group:CelulaReuniaoApp/Reuniao/Models"
+            name = "Models">
+            <FileRef
+               location = "group:CelulaReuniaoApp/Reuniao/Models/ReuniaoItem.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:CelulaReuniaoApp/Reuniao/Controller"
+            name = "Controller">
+            <FileRef
+               location = "group:CelulaReuniaoApp/Reuniao/Controller/IncluirReuniaoViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CelulaReuniaoApp/Reuniao/Controller/ExibeParticipantesReuniao.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CelulaReuniaoApp/Reuniao/Controller/SalvarReuniaoViewController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:CelulaReuniaoApp/Reuniao/Views"
+            name = "Views">
+            <FileRef
+               location = "group:CelulaReuniaoApp/Reuniao/Views/ParticipantesCellCollectionViewCell.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:CelulaReuniaoApp/AppDelegate.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CelulaReuniaoApp/LoginController.swift">
+      </FileRef>
+      <Group
+         location = "group:CelulaReuniaoApp/Usuarios"
+         name = "Usuarios">
+         <Group
+            location = "group:CelulaReuniaoApp/Usuarios/Models"
+            name = "Models">
+            <FileRef
+               location = "group:CelulaReuniaoApp/Usuarios/Models/Usuario.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CelulaReuniaoApp/Usuarios/ListarUsuariosTableViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CelulaReuniaoApp/Usuarios/CadastroUsuarioViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CelulaReuniaoApp/Usuarios/IncluiUsuarioViewController.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:CelulaReuniaoApp/Participantes"
+         name = "Participantes">
+         <Group
+            location = "group:CelulaReuniaoApp/Participantes/Views"
+            name = "Views">
+            <FileRef
+               location = "group:CelulaReuniaoApp/Participantes/Views/IncluirParticipantes.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CelulaReuniaoApp/Participantes/Views/DateNascimento.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CelulaReuniaoApp/Participantes/Views/BuscaIdCelula.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:CelulaReuniaoApp/Participantes/Models"
+            name = "Models">
+            <FileRef
+               location = "group:CelulaReuniaoApp/Participantes/Models/Participante.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CelulaReuniaoApp/Participantes/ItemCell.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CelulaReuniaoApp/Participantes/ParticipantesTableViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CelulaReuniaoApp/Participantes/IncluiParticipantesViewController.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:CelulaReuniaoApp/Celula"
+         name = "Celula">
+         <Group
+            location = "group:CelulaReuniaoApp/Celula/View"
+            name = "View">
+            <FileRef
+               location = "group:CelulaReuniaoApp/Celula/View/BuscaUsuario.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:CelulaReuniaoApp/Celula/Models"
+            name = "Models">
+            <FileRef
+               location = "group:CelulaReuniaoApp/Celula/Models/Celula.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CelulaReuniaoApp/Celula/HomeCelulaViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CelulaReuniaoApp/Celula/CelulaViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CelulaReuniaoApp/Celula/BuscaCelulaViewController.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:CelulaReuniaoApp"
+         name = "Main.storyboard">
+         <FileRef
+            location = "group:CelulaReuniaoApp/Base.lproj/Main.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:CelulaReuniaoApp/Assets.xcassets">
+      </FileRef>
+      <Group
+         location = "group:CelulaReuniaoApp"
+         name = "LaunchScreen.storyboard">
+         <FileRef
+            location = "group:CelulaReuniaoApp/Base.lproj/LaunchScreen.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:CelulaReuniaoApp/Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:CelulaReuniaoApp/GoogleService-Info.plist">
+      </FileRef>
+      <Group
+         location = "group:CelulaReuniaoApp/CelulaReuniaoApp.xcdatamodeld"
+         name = "CelulaReuniaoApp.xcdatamodeld">
+         <FileRef
+            location = "group:CelulaReuniaoApp/CelulaReuniaoApp.xcdatamodeld/CelulaReuniaoApp.xcdatamodel">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

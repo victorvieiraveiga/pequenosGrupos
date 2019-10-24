@@ -3,27 +3,119 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130110C622FA00D0006879FC /* CadastroUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130110C522FA00D0006879FC /* CadastroUsuarioViewController.swift */; };
+		13141C842308B5A100401BC2 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13141C832308B5A100401BC2 /* Usuario.swift */; };
+		1332BBED234023DC00652D48 /* TipoGrupoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1332BBEC234023DC00652D48 /* TipoGrupoController.swift */; };
+		1332BBEF234085BC00652D48 /* SalvarTipoGrupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1332BBEE234085BC00652D48 /* SalvarTipoGrupo.swift */; };
+		13467DBB2303B3A600540C63 /* BuscaUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13467DBA2303B3A600540C63 /* BuscaUsuario.swift */; };
+		134C3C832335F1C30007DE02 /* AdicionaFotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134C3C822335F1C30007DE02 /* AdicionaFotos.swift */; };
+		134C3C85233A7D8B0007DE02 /* ExibeReunioesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134C3C84233A7D8A0007DE02 /* ExibeReunioesTableViewController.swift */; };
+		134C3C87233A7DC70007DE02 /* ParticipantesCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134C3C86233A7DC70007DE02 /* ParticipantesCellCollectionViewCell.swift */; };
+		134C3C89233A7DEA0007DE02 /* IncluiUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134C3C88233A7DEA0007DE02 /* IncluiUsuarioViewController.swift */; };
+		1350C5482326C56E00E8D958 /* ExibeReunioesTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1350C5472326C56E00E8D958 /* ExibeReunioesTVController.swift */; };
+		1356533522FDD7450034E87D /* BuscaCelulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1356533422FDD7450034E87D /* BuscaCelulaViewController.swift */; };
+		1356F12B23294D910055577B /* MapaParticipantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1356F12A23294D910055577B /* MapaParticipantes.swift */; };
+		1356F12E232965EB0055577B /* MapaDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1356F12D232965EB0055577B /* MapaDataManager.swift */; };
+		1356F130232974810055577B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1356F12F232974810055577B /* CoreLocation.framework */; };
+		1357F0C723130D7E00FF1838 /* ReuniaoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357F0C623130D7E00FF1838 /* ReuniaoItem.swift */; };
+		135C6AED23441353002D3D6F /* TipoGrupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135C6AEC23441353002D3D6F /* TipoGrupo.swift */; };
+		13615CC72332CCDD000B82D8 /* AddFotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13615CC62332CCDD000B82D8 /* AddFotoViewController.swift */; };
+		136244F6230D734C006BE29D /* IncluirReuniaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136244F5230D734C006BE29D /* IncluirReuniaoViewController.swift */; };
+		136244FA230DE186006BE29D /* ExibeParticipantesReuniao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136244F9230DE186006BE29D /* ExibeParticipantesReuniao.swift */; };
+		136244FC23118C3D006BE29D /* SalvarReuniaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136244FB23118C3D006BE29D /* SalvarReuniaoViewController.swift */; };
+		138B3F3B2319929200194E09 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B3F3A2319929200194E09 /* Menu.swift */; };
+		138B3F3E2319A98E00194E09 /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138B3F3D2319A98E00194E09 /* Home.xib */; };
+		138B3F402319AE9300194E09 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B3F3F2319AE9300194E09 /* Home.swift */; };
+		138B3F422319CA6800194E09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B3F412319CA6800194E09 /* HomeViewController.swift */; };
+		138B3F46231AFD6100194E09 /* SalvarCelularController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B3F45231AFD6100194E09 /* SalvarCelularController.swift */; };
+		138E996022FCA36C00F4EB52 /* Celula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138E995F22FCA36C00F4EB52 /* Celula.swift */; };
+		13A4EC24231B235400789F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A4EC22231B235400789F3A /* Main.storyboard */; };
+		13A4EC27231EA8A800789F3A /* Autenticacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4EC26231EA8A800789F3A /* Autenticacao.swift */; };
+		13A4EC292320917A00789F3A /* ConfiguraCelulaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4EC282320917A00789F3A /* ConfiguraCelulaController.swift */; };
+		13A4EC2B232099AC00789F3A /* SalvarGrupoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4EC2A232099AC00789F3A /* SalvarGrupoController.swift */; };
+		13A6A20722F930BF00544372 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6A20622F930BF00544372 /* ItemCell.swift */; };
+		13A6A20922F9D79700544372 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13A6A20822F9D79700544372 /* GoogleService-Info.plist */; };
+		13A981F82315C3DD00F61B99 /* ReuniaoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A981F72315C3DD00F61B99 /* ReuniaoCell.swift */; };
+		13A981FF2317315900F61B99 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A981FD2317315800F61B99 /* SWRevealViewController.m */; };
+		13B746C32308FFF20043E4E0 /* Participante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B746C22308FFF20043E4E0 /* Participante.swift */; };
+		13C57426230B33B4008528C1 /* BuscaIdCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C57425230B33B4008528C1 /* BuscaIdCelula.swift */; };
+		13CF9DD022F29F1E0040D87C /* ListarUsuariosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF9DCF22F29F1E0040D87C /* ListarUsuariosTableViewController.swift */; };
+		13CF9DD622F6A2A00040D87C /* ParticipantesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF9DD522F6A2A00040D87C /* ParticipantesTableViewController.swift */; };
+		13CF9DD822F76C7C0040D87C /* HomeCelulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF9DD722F76C7C0040D87C /* HomeCelulaViewController.swift */; };
+		13CF9DDC22F8B72B0040D87C /* IncluiParticipantesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF9DDB22F8B72B0040D87C /* IncluiParticipantesViewController.swift */; };
+		13DE875822FB99FF004D2B6E /* CelulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DE875722FB99FF004D2B6E /* CelulaViewController.swift */; };
+		13F4668D23454710009AA9A7 /* GruposExibirTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F4668C23454710009AA9A7 /* GruposExibirTableView.swift */; };
 		13FB5B8422DFB01E00A30F74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB5B8322DFB01E00A30F74 /* AppDelegate.swift */; };
-		13FB5B8622DFB01E00A30F74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB5B8522DFB01E00A30F74 /* ViewController.swift */; };
-		13FB5B8922DFB01E00A30F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FB5B8722DFB01E00A30F74 /* Main.storyboard */; };
+		13FB5B8622DFB01E00A30F74 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB5B8522DFB01E00A30F74 /* LoginController.swift */; };
 		13FB5B8C22DFB01E00A30F74 /* CelulaReuniaoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13FB5B8A22DFB01E00A30F74 /* CelulaReuniaoApp.xcdatamodeld */; };
 		13FB5B8E22DFB02000A30F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FB5B8D22DFB02000A30F74 /* Assets.xcassets */; };
 		13FB5B9122DFB02000A30F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FB5B8F22DFB02000A30F74 /* LaunchScreen.storyboard */; };
+		13FE0511230AF2410010A03A /* IncluirParticipantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE0510230AF2410010A03A /* IncluirParticipantes.swift */; };
+		13FE0513230B05470010A03A /* DateNascimento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE0512230B05470010A03A /* DateNascimento.swift */; };
+		C5050F4BBB84B735DECB94F5 /* Pods_CelulaReuniaoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E921C39126460AEA1A58F /* Pods_CelulaReuniaoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		130110C522FA00D0006879FC /* CadastroUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroUsuarioViewController.swift; sourceTree = "<group>"; };
+		13141C832308B5A100401BC2 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		1332BBEC234023DC00652D48 /* TipoGrupoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoGrupoController.swift; sourceTree = "<group>"; };
+		1332BBEE234085BC00652D48 /* SalvarTipoGrupo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvarTipoGrupo.swift; sourceTree = "<group>"; };
+		13467DBA2303B3A600540C63 /* BuscaUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaUsuario.swift; sourceTree = "<group>"; };
+		134C3C822335F1C30007DE02 /* AdicionaFotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionaFotos.swift; sourceTree = "<group>"; };
+		134C3C84233A7D8A0007DE02 /* ExibeReunioesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExibeReunioesTableViewController.swift; path = ../Controller/ExibeReunioesTableViewController.swift; sourceTree = "<group>"; };
+		134C3C86233A7DC70007DE02 /* ParticipantesCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantesCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		134C3C88233A7DEA0007DE02 /* IncluiUsuarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncluiUsuarioViewController.swift; sourceTree = "<group>"; };
+		1350C5472326C56E00E8D958 /* ExibeReunioesTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExibeReunioesTVController.swift; sourceTree = "<group>"; };
+		1356533422FDD7450034E87D /* BuscaCelulaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCelulaViewController.swift; sourceTree = "<group>"; };
+		1356F12A23294D910055577B /* MapaParticipantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaParticipantes.swift; sourceTree = "<group>"; };
+		1356F12D232965EB0055577B /* MapaDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaDataManager.swift; sourceTree = "<group>"; };
+		1356F12F232974810055577B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1357F0C623130D7E00FF1838 /* ReuniaoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuniaoItem.swift; sourceTree = "<group>"; };
+		135C6AEC23441353002D3D6F /* TipoGrupo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoGrupo.swift; sourceTree = "<group>"; };
+		13615CC62332CCDD000B82D8 /* AddFotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFotoViewController.swift; sourceTree = "<group>"; };
+		136244F5230D734C006BE29D /* IncluirReuniaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncluirReuniaoViewController.swift; sourceTree = "<group>"; };
+		136244F9230DE186006BE29D /* ExibeParticipantesReuniao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExibeParticipantesReuniao.swift; sourceTree = "<group>"; };
+		136244FB23118C3D006BE29D /* SalvarReuniaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvarReuniaoViewController.swift; sourceTree = "<group>"; };
+		138B3F3A2319929200194E09 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		138B3F3D2319A98E00194E09 /* Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
+		138B3F3F2319AE9300194E09 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		138B3F412319CA6800194E09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		138B3F45231AFD6100194E09 /* SalvarCelularController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvarCelularController.swift; sourceTree = "<group>"; };
+		138E995F22FCA36C00F4EB52 /* Celula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celula.swift; sourceTree = "<group>"; };
+		13A4EC23231B235400789F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13A4EC26231EA8A800789F3A /* Autenticacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autenticacao.swift; sourceTree = "<group>"; };
+		13A4EC282320917A00789F3A /* ConfiguraCelulaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguraCelulaController.swift; sourceTree = "<group>"; };
+		13A4EC2A232099AC00789F3A /* SalvarGrupoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvarGrupoController.swift; sourceTree = "<group>"; };
+		13A6A20622F930BF00544372 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		13A6A20822F9D79700544372 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13A981F72315C3DD00F61B99 /* ReuniaoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuniaoCell.swift; sourceTree = "<group>"; };
+		13A981FC2317315700F61B99 /* CelulaReuniaoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CelulaReuniaoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		13A981FD2317315800F61B99 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		13A981FE2317315900F61B99 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		13B746C22308FFF20043E4E0 /* Participante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participante.swift; sourceTree = "<group>"; };
+		13C57425230B33B4008528C1 /* BuscaIdCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaIdCelula.swift; sourceTree = "<group>"; };
+		13CF9DCF22F29F1E0040D87C /* ListarUsuariosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarUsuariosTableViewController.swift; sourceTree = "<group>"; };
+		13CF9DD522F6A2A00040D87C /* ParticipantesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantesTableViewController.swift; sourceTree = "<group>"; };
+		13CF9DD722F76C7C0040D87C /* HomeCelulaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCelulaViewController.swift; sourceTree = "<group>"; };
+		13CF9DDB22F8B72B0040D87C /* IncluiParticipantesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncluiParticipantesViewController.swift; sourceTree = "<group>"; };
+		13DE875722FB99FF004D2B6E /* CelulaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaViewController.swift; sourceTree = "<group>"; };
+		13F4668C23454710009AA9A7 /* GruposExibirTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GruposExibirTableView.swift; sourceTree = "<group>"; };
 		13FB5B8022DFB01E00A30F74 /* CelulaReuniaoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelulaReuniaoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FB5B8322DFB01E00A30F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13FB5B8522DFB01E00A30F74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		13FB5B8822DFB01E00A30F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13FB5B8522DFB01E00A30F74 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		13FB5B8B22DFB01E00A30F74 /* CelulaReuniaoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CelulaReuniaoApp.xcdatamodel; sourceTree = "<group>"; };
 		13FB5B8D22DFB02000A30F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13FB5B9022DFB02000A30F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13FB5B9222DFB02000A30F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FE0510230AF2410010A03A /* IncluirParticipantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncluirParticipantes.swift; sourceTree = "<group>"; };
+		13FE0512230B05470010A03A /* DateNascimento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateNascimento.swift; sourceTree = "<group>"; };
+		6A6E921C39126460AEA1A58F /* Pods_CelulaReuniaoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CelulaReuniaoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09538D7533E4E74AF1F7C2E /* Pods-CelulaReuniaoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CelulaReuniaoApp.debug.xcconfig"; path = "Target Support Files/Pods-CelulaReuniaoApp/Pods-CelulaReuniaoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2A99060F4EA992E477B38F /* Pods-CelulaReuniaoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CelulaReuniaoApp.release.xcconfig"; path = "Target Support Files/Pods-CelulaReuniaoApp/Pods-CelulaReuniaoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +123,248 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1356F130232974810055577B /* CoreLocation.framework in Frameworks */,
+				C5050F4BBB84B735DECB94F5 /* Pods_CelulaReuniaoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B55A110D325B7167EE4B226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A09538D7533E4E74AF1F7C2E /* Pods-CelulaReuniaoApp.debug.xcconfig */,
+				EC2A99060F4EA992E477B38F /* Pods-CelulaReuniaoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1301756522FB2CFE001FC8ED /* Celula */ = {
+			isa = PBXGroup;
+			children = (
+				138B3F44231AFD4500194E09 /* Controller */,
+				134F1E6C23047DFF00276D2B /* View */,
+				138E995E22FCA33400F4EB52 /* Models */,
+				13CF9DD722F76C7C0040D87C /* HomeCelulaViewController.swift */,
+				13DE875722FB99FF004D2B6E /* CelulaViewController.swift */,
+				1356533422FDD7450034E87D /* BuscaCelulaViewController.swift */,
+			);
+			path = Celula;
+			sourceTree = "<group>";
+		};
+		13141C822308B57F00401BC2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13141C832308B5A100401BC2 /* Usuario.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		13224A7E22FC71F70025D53F /* Usuarios */ = {
+			isa = PBXGroup;
+			children = (
+				13141C822308B57F00401BC2 /* Models */,
+				13CF9DCF22F29F1E0040D87C /* ListarUsuariosTableViewController.swift */,
+				134C3C88233A7DEA0007DE02 /* IncluiUsuarioViewController.swift */,
+				130110C522FA00D0006879FC /* CadastroUsuarioViewController.swift */,
+			);
+			path = Usuarios;
+			sourceTree = "<group>";
+		};
+		1332BBF1234412AF00652D48 /* TipoGrupo */ = {
+			isa = PBXGroup;
+			children = (
+				135C6AEA23441325002D3D6F /* Model */,
+				135C6AEB2344132F002D3D6F /* View */,
+				135C6AE92344131D002D3D6F /* Controller */,
+			);
+			path = TipoGrupo;
+			sourceTree = "<group>";
+		};
+		134F1E6C23047DFF00276D2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13467DBA2303B3A600540C63 /* BuscaUsuario.swift */,
+				13F4668C23454710009AA9A7 /* GruposExibirTableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1356F12C232962C30055577B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1356F12A23294D910055577B /* MapaParticipantes.swift */,
+				13CF9DD522F6A2A00040D87C /* ParticipantesTableViewController.swift */,
+				13CF9DDB22F8B72B0040D87C /* IncluiParticipantesViewController.swift */,
+				13615CC62332CCDD000B82D8 /* AddFotoViewController.swift */,
+				134C3C822335F1C30007DE02 /* AdicionaFotos.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1357F0C523130D3300FF1838 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1357F0C623130D7E00FF1838 /* ReuniaoItem.swift */,
+				13A981F72315C3DD00F61B99 /* ReuniaoCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		135C6AE92344131D002D3D6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1332BBEC234023DC00652D48 /* TipoGrupoController.swift */,
+				1332BBEE234085BC00652D48 /* SalvarTipoGrupo.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		135C6AEA23441325002D3D6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				135C6AEC23441353002D3D6F /* TipoGrupo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		135C6AEB2344132F002D3D6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		136244F3230D7305006BE29D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				134C3C84233A7D8A0007DE02 /* ExibeReunioesTableViewController.swift */,
+				1350C5472326C56E00E8D958 /* ExibeReunioesTVController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		136244F4230D731D006BE29D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				136244F5230D734C006BE29D /* IncluirReuniaoViewController.swift */,
+				136244F9230DE186006BE29D /* ExibeParticipantesReuniao.swift */,
+				136244FB23118C3D006BE29D /* SalvarReuniaoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13876629230AEE930037E97F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				134C3C86233A7DC70007DE02 /* ParticipantesCellCollectionViewCell.swift */,
+				13FE0510230AF2410010A03A /* IncluirParticipantes.swift */,
+				13FE0512230B05470010A03A /* DateNascimento.swift */,
+				13C57425230B33B4008528C1 /* BuscaIdCelula.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		138B3F3C2319A8BD00194E09 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				138B3F432319CA6E00194E09 /* Controller */,
+				138B3F3D2319A98E00194E09 /* Home.xib */,
+				138B3F3F2319AE9300194E09 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		138B3F432319CA6E00194E09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				138B3F412319CA6800194E09 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		138B3F44231AFD4500194E09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				138B3F45231AFD6100194E09 /* SalvarCelularController.swift */,
+				13A4EC282320917A00789F3A /* ConfiguraCelulaController.swift */,
+				13A4EC2A232099AC00789F3A /* SalvarGrupoController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		138E995E22FCA33400F4EB52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				138E995F22FCA36C00F4EB52 /* Celula.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		139FD1D222FB332F00908805 /* Participantes */ = {
+			isa = PBXGroup;
+			children = (
+				1356F12C232962C30055577B /* Controller */,
+				13876629230AEE930037E97F /* Views */,
+				13B746C12308FFD90043E4E0 /* Models */,
+				13A6A20622F930BF00544372 /* ItemCell.swift */,
+			);
+			path = Participantes;
+			sourceTree = "<group>";
+		};
+		13A4EC25231EA71A00789F3A /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				13A4EC26231EA8A800789F3A /* Autenticacao.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		13A981FB231730DF00F61B99 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				13A981FE2317315900F61B99 /* SWRevealViewController.h */,
+				13A981FD2317315800F61B99 /* SWRevealViewController.m */,
+				13A981FC2317315700F61B99 /* CelulaReuniaoApp-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		13A982002317321100F61B99 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				138B3F3A2319929200194E09 /* Menu.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		13B746C12308FFD90043E4E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13B746C22308FFF20043E4E0 /* Participante.swift */,
+				1356F12D232965EB0055577B /* MapaDataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		13C57427230D7020008528C1 /* Reuniao */ = {
+			isa = PBXGroup;
+			children = (
+				1357F0C523130D3300FF1838 /* Models */,
+				136244F4230D731D006BE29D /* Controller */,
+				136244F3230D7305006BE29D /* Views */,
+			);
+			path = Reuniao;
+			sourceTree = "<group>";
+		};
 		13FB5B7722DFB01E00A30F74 = {
 			isa = PBXGroup;
 			children = (
 				13FB5B8222DFB01E00A30F74 /* CelulaReuniaoApp */,
 				13FB5B8122DFB01E00A30F74 /* Products */,
+				0B55A110D325B7167EE4B226 /* Pods */,
+				ED086B89EF0F5B13054D9A2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +379,34 @@
 		13FB5B8222DFB01E00A30F74 /* CelulaReuniaoApp */ = {
 			isa = PBXGroup;
 			children = (
+				1332BBF1234412AF00652D48 /* TipoGrupo */,
+				13A4EC25231EA71A00789F3A /* Misc */,
+				138B3F3C2319A8BD00194E09 /* Home */,
+				13A982002317321100F61B99 /* Menu */,
+				13A981FB231730DF00F61B99 /* SWRevealViewController */,
+				13C57427230D7020008528C1 /* Reuniao */,
 				13FB5B8322DFB01E00A30F74 /* AppDelegate.swift */,
-				13FB5B8522DFB01E00A30F74 /* ViewController.swift */,
-				13FB5B8722DFB01E00A30F74 /* Main.storyboard */,
+				13FB5B8522DFB01E00A30F74 /* LoginController.swift */,
+				13224A7E22FC71F70025D53F /* Usuarios */,
+				139FD1D222FB332F00908805 /* Participantes */,
+				1301756522FB2CFE001FC8ED /* Celula */,
 				13FB5B8D22DFB02000A30F74 /* Assets.xcassets */,
+				13A4EC22231B235400789F3A /* Main.storyboard */,
 				13FB5B8F22DFB02000A30F74 /* LaunchScreen.storyboard */,
 				13FB5B9222DFB02000A30F74 /* Info.plist */,
+				13A6A20822F9D79700544372 /* GoogleService-Info.plist */,
 				13FB5B8A22DFB01E00A30F74 /* CelulaReuniaoApp.xcdatamodeld */,
 			);
 			path = CelulaReuniaoApp;
+			sourceTree = "<group>";
+		};
+		ED086B89EF0F5B13054D9A2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1356F12F232974810055577B /* CoreLocation.framework */,
+				6A6E921C39126460AEA1A58F /* Pods_CelulaReuniaoApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +416,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13FB5B9522DFB02000A30F74 /* Build configuration list for PBXNativeTarget "CelulaReuniaoApp" */;
 			buildPhases = (
+				30D3284FAF3D37C98CBA9D4C /* [CP] Check Pods Manifest.lock */,
 				13FB5B7C22DFB01E00A30F74 /* Sources */,
 				13FB5B7D22DFB01E00A30F74 /* Frameworks */,
 				13FB5B7E22DFB01E00A30F74 /* Resources */,
+				430350CB07D3897B58E05A6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +443,7 @@
 				TargetAttributes = {
 					13FB5B7F22DFB01E00A30F74 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -126,12 +471,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				13FB5B9122DFB02000A30F74 /* LaunchScreen.storyboard in Resources */,
+				13A4EC24231B235400789F3A /* Main.storyboard in Resources */,
+				138B3F3E2319A98E00194E09 /* Home.xib in Resources */,
+				13A6A20922F9D79700544372 /* GoogleService-Info.plist in Resources */,
 				13FB5B8E22DFB02000A30F74 /* Assets.xcassets in Resources */,
-				13FB5B8922DFB01E00A30F74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30D3284FAF3D37C98CBA9D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CelulaReuniaoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430350CB07D3897B58E05A6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CelulaReuniaoApp/Pods-CelulaReuniaoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CelulaReuniaoApp/Pods-CelulaReuniaoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CelulaReuniaoApp/Pods-CelulaReuniaoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13FB5B7C22DFB01E00A30F74 /* Sources */ = {
@@ -139,18 +528,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				13FB5B8C22DFB01E00A30F74 /* CelulaReuniaoApp.xcdatamodeld in Sources */,
-				13FB5B8622DFB01E00A30F74 /* ViewController.swift in Sources */,
+				138B3F46231AFD6100194E09 /* SalvarCelularController.swift in Sources */,
+				1350C5482326C56E00E8D958 /* ExibeReunioesTVController.swift in Sources */,
+				1356F12E232965EB0055577B /* MapaDataManager.swift in Sources */,
+				134C3C89233A7DEA0007DE02 /* IncluiUsuarioViewController.swift in Sources */,
+				13B746C32308FFF20043E4E0 /* Participante.swift in Sources */,
+				138B3F3B2319929200194E09 /* Menu.swift in Sources */,
+				13A4EC2B232099AC00789F3A /* SalvarGrupoController.swift in Sources */,
+				138B3F402319AE9300194E09 /* Home.swift in Sources */,
+				1332BBED234023DC00652D48 /* TipoGrupoController.swift in Sources */,
+				13DE875822FB99FF004D2B6E /* CelulaViewController.swift in Sources */,
+				138B3F422319CA6800194E09 /* HomeViewController.swift in Sources */,
+				134C3C85233A7D8B0007DE02 /* ExibeReunioesTableViewController.swift in Sources */,
+				13CF9DD022F29F1E0040D87C /* ListarUsuariosTableViewController.swift in Sources */,
+				1332BBEF234085BC00652D48 /* SalvarTipoGrupo.swift in Sources */,
+				13A4EC292320917A00789F3A /* ConfiguraCelulaController.swift in Sources */,
+				1356F12B23294D910055577B /* MapaParticipantes.swift in Sources */,
+				13A981FF2317315900F61B99 /* SWRevealViewController.m in Sources */,
+				13467DBB2303B3A600540C63 /* BuscaUsuario.swift in Sources */,
+				13A6A20722F930BF00544372 /* ItemCell.swift in Sources */,
+				138E996022FCA36C00F4EB52 /* Celula.swift in Sources */,
+				130110C622FA00D0006879FC /* CadastroUsuarioViewController.swift in Sources */,
+				136244FC23118C3D006BE29D /* SalvarReuniaoViewController.swift in Sources */,
+				13141C842308B5A100401BC2 /* Usuario.swift in Sources */,
+				13CF9DDC22F8B72B0040D87C /* IncluiParticipantesViewController.swift in Sources */,
+				1356533522FDD7450034E87D /* BuscaCelulaViewController.swift in Sources */,
+				13C57426230B33B4008528C1 /* BuscaIdCelula.swift in Sources */,
+				1357F0C723130D7E00FF1838 /* ReuniaoItem.swift in Sources */,
+				13FB5B8622DFB01E00A30F74 /* LoginController.swift in Sources */,
+				135C6AED23441353002D3D6F /* TipoGrupo.swift in Sources */,
+				13A981F82315C3DD00F61B99 /* ReuniaoCell.swift in Sources */,
+				13FE0511230AF2410010A03A /* IncluirParticipantes.swift in Sources */,
+				13FE0513230B05470010A03A /* DateNascimento.swift in Sources */,
 				13FB5B8422DFB01E00A30F74 /* AppDelegate.swift in Sources */,
+				13615CC72332CCDD000B82D8 /* AddFotoViewController.swift in Sources */,
+				134C3C832335F1C30007DE02 /* AdicionaFotos.swift in Sources */,
+				136244FA230DE186006BE29D /* ExibeParticipantesReuniao.swift in Sources */,
+				13F4668D23454710009AA9A7 /* GruposExibirTableView.swift in Sources */,
+				136244F6230D734C006BE29D /* IncluirReuniaoViewController.swift in Sources */,
+				13CF9DD822F76C7C0040D87C /* HomeCelulaViewController.swift in Sources */,
+				13A4EC27231EA8A800789F3A /* Autenticacao.swift in Sources */,
+				134C3C87233A7DC70007DE02 /* ParticipantesCellCollectionViewCell.swift in Sources */,
+				13CF9DD622F6A2A00040D87C /* ParticipantesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13FB5B8722DFB01E00A30F74 /* Main.storyboard */ = {
+		13A4EC22231B235400789F3A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13FB5B8822DFB01E00A30F74 /* Base */,
+				13A4EC23231B235400789F3A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -284,37 +713,46 @@
 		};
 		13FB5B9622DFB02000A30F74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09538D7533E4E74AF1F7C2E /* Pods-CelulaReuniaoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PUPU794X52;
 				INFOPLIST_FILE = CelulaReuniaoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.victor.CelulaReuniaoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CelulaReuniaoApp/SWRevealViewController/CelulaReuniaoApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		13FB5B9722DFB02000A30F74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2A99060F4EA992E477B38F /* Pods-CelulaReuniaoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PUPU794X52;
 				INFOPLIST_FILE = CelulaReuniaoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.victor.CelulaReuniaoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CelulaReuniaoApp/SWRevealViewController/CelulaReuniaoApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

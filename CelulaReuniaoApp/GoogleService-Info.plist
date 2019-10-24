@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>612730279782-7slh363pspn88t19mghpusmj4j8cnajn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.612730279782-7slh363pspn88t19mghpusmj4j8cnajn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAjQk4Y28gbzMMOVlKtK42qTzMybSAJHYg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>612730279782</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.victor.CelulaReuniaoApp</string>
+	<key>PROJECT_ID</key>
+	<string>celulaapp-245cb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>celulaapp-245cb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:612730279782:ios:0090e1faab33af16</string>
+	<key>DATABASE_URL</key>
+	<string>https://celulaapp-245cb.firebaseio.com</string>
+</dict>
+</plist>
